@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idtypetransform;datatype:int,name:typetransformname;datatype:string" />
+	<infoitem key="UD_Recordset2" value="name:idtechnicial;datatype:int,name:technicialname;datatype:string" />
+	<infoitem key="UD_Recordset3" value="name:idloadtap;datatype:int,name:loadtapname;datatype:string" />
+	<infoitem key="UD_Recordset4" value="name:idleader;datatype:int,name:leadername;datatype:string" />
+	<infoitem key="UD_Recordset5" value="name:idloadingtype;datatype:int,name:loadingtypename;datatype:string" />
+</info>

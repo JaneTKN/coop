@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_formtype" value="name:typeformid;datatype:int,name:typeform;datatype:string" />
+	<infoitem key="UD_search" value="name:NoidNo;datatype:string,name:editNo;datatype:string,name:formtype;datatype:string" />
+</info>

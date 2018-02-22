@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:idtypetransform;datatype:int,name:typetransformname;datatype:string" />
+	<infoitem key="UD_technical" value="name:idtechnicial;datatype:int,name:technicialname;datatype:string" />
+	<infoitem key="UD_loadtap" value="name:idloadtap;datatype:int,name:loadtapname;datatype:string" />
+	<infoitem key="UD_typetransform" value="name:idtypetransform;datatype:int,name:typetransformname;datatype:string" />
+	<infoitem key="UD_leader" value="name:idleader;datatype:int,name:leadername;datatype:string" />
+	<infoitem key="UD_loadingtype" value="name:idloadingtype;datatype:int,name:loadingtypename;datatype:string" />
+	<infoitem key="UD_fishtale" value="name:idfishtale;datatype:int,name:fishtalename;datatype:string" />
+	<infoitem key="UD_talefish" value="name:idtalefish;datatype:int,name:talefishname;datatype:string" />
+	<infoitem key="UD_onload" value="name:idonload;datatype:int,name:onloadname;datatype:string" />
+	<infoitem key="UD_otheronload" value="name:idotheronload;datatype:int,name:otheronloadname;datatype:string" />
+	<infoitem key="UD_specolor" value="name:idspecolor;datatype:int,name:specolorname;datatype:string" />
+	<infoitem key="UD_road" value="name:idroad;datatype:int,name:roadname;datatype:string" />
+</info>
