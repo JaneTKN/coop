@@ -100,6 +100,10 @@ borderize(source4,"#eda496")
 	<td class="menulines" width="16%"> 
     <div align="center"><a href="produceForm.php" target="_blank">แบบสอบถามการผลิต</a></div></td>
 </tr>
+<tr>
+	<td class="menulines" width="16%"> 
+    <div align="center"><a href="search_user.php" target="fbody">ค้นหาแบบสอบถาม</a></div></td>
+</tr>
 
 <tr>
 

@@ -2123,15 +2123,16 @@ $(document).ready(function(){
 <script type="text/javascript">
 $(function(){
      
-    
+    // เมื่อเปลี่ยนค่าของ select id เท่ากับ list1
      $("select#accessories1").change(function(){  
-             $.post("listbox1.php",{
+         // ส่งค่า ตัวแปร list1 มีค่าเท่ากับค่าที่เลือก ส่งแบบ get ไปที่ไฟล์ data_for_list2.php
+         $.post("listbox1.php",{
              acc1:"acc1",
              accessories1:$("#accessories1").val()
   
-         },function(data){ 
-                $("select#accessories2").html(data);  
-				$("select#accessories2").trigger("change"); 
+         },function(data){ // คืนค่ากลับมา
+                $("select#accessories2").html(data);  // นำค่าที่ได้ไปใส่ใน select id เท่ากับ list2
+				$("select#accessories2").trigger("change"); // อัพเดท list2 เพื่อให้ list2 ทำงานสำหรับรีเซ็ตค่า
          });
          
     });

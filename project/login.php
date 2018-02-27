@@ -28,8 +28,7 @@ if (isset($_POST['username'])) {
 		      if($_SESSION['member_status'] == admin){ echo "<script> location='menu_admin.php' </script>" ;}
               elseif($_SESSION['member_status'] == user){echo "<script> location='menu_user.php' </script>";}
  	   }
- 	else { 
-		echo "<script>alert('Username หรือ Password ไม่ถูกต้อง!');</script>";
+ 	else {
     	 }
 }
 ?>
@@ -90,9 +89,6 @@ input[type=password] {
     border: 2px solid #d35256;
     border-radius: 4px;
 }
-body,td,th {
-	font-family: "Comic Sans MS", cursive;
-}
 </style>
 </head>
 
@@ -131,12 +127,12 @@ body,td,th {
 <script language="JavaScript">
 function check() {
 if(document.form1.username.value=="") {
-alert("กรุณากรอก Username") ;
+alert("กรุณากรอกชื่อที่ใช้ในการล็อกอินด้วยครับ") ;
 document.form1.username.focus() ;
 return false ;
 }
 else if(document.form1.password.value=="") {
-alert("กรุณากรอก Password") ;
+alert("กรุณากรอกรหัสผ่านด้วยครับ") ;
 document.form1.password.focus() ;
 return false ;
 }
@@ -145,6 +141,5 @@ return true ;
 
 }
    </script>
-
 </body>
 </html>
